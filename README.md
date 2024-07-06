@@ -3,10 +3,29 @@ This Python script provides a simple yet effective way to remind you to drink wa
 
 Features
 
-1.Water Reminder: Reminds you to drink water every 2 hours and tracks your water intake towards a daily goal.
+Features
+Water Reminder:
 
-2.Break Reminder: Reminds you to take a 10-minute break every 30 minutes of work.
+Sends desktop notifications reminding you to drink water.
 
-3.Desktop Notifications: Uses desktop notifications to remind you to drink water and take breaks.
+Asks for confirmation if you have drunk water through a pop-up dialog.
 
-4.Pop-up Dialogs: Uses pop-up dialogs to ask if you've drunk water and to display the break timer.
+Tracks your daily water intake and updates you on how much more you need to drink.
+
+Break Reminder:
+
+Sends desktop notifications reminding you to take breaks every 30 minutes.
+
+Starts a countdown timer for a 10-minute break using a Tkinter GUI pop-up.
+
+Techniques Used
+
+Desktop Notifications: Implemented using the plyer library to provide system notifications.
+
+Tkinter GUI: Utilized for creating pop-up dialogs and countdown timers.
+
+Threading: Used to run the break reminder and water reminder concurrently without blocking each other.
+
+Time Management: Incorporated sleep intervals to manage the timing of reminders and breaks.
+
+User Interaction: Leveraged Tkinter's messagebox for user confirmation.
