@@ -1,9 +1,8 @@
 # Water and Break Reminder App
 This Python script provides a simple yet effective way to remind you to drink water and take breaks regularly throughout your day. It uses desktop notifications and pop-up dialogs to ensure you stay hydrated and take necessary breaks to maintain your productivity and health.
 
-Features
+# Features
 
-Features
 Water Reminder:
 
 Sends desktop notifications reminding you to drink water.
@@ -18,7 +17,7 @@ Sends desktop notifications reminding you to take breaks every 30 minutes.
 
 Starts a countdown timer for a 10-minute break using a Tkinter GUI pop-up.
 
-Techniques Used
+# Technique Used
 
 Desktop Notifications: Implemented using the plyer library to provide system notifications.
 
